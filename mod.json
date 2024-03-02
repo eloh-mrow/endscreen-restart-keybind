@@ -1,0 +1,19 @@
+{
+	"geode": "2.0.0-beta.15",
+	"gd": "2.204",
+	"version": "v0.1.0",
+	"id": "elohmrow.endscreen_restart_keybind",
+	"name": "Endscreen Restart Keybind",
+	"developer": "ElohmroW",
+	"description": "Adds a keybind that restarts the level at the endscreen",
+	"repository": "https://github.com/eloh-mrow/endscreen-restart-keybind",
+	"tags": ["Utility", "Keybinds"],
+	"dependencies": [
+        {
+            "id": "geode.custom-keybinds",
+            "version": "v1.5.0",
+			"importance": "required",
+			"platforms": ["windows"]
+        }
+    ]
+}
